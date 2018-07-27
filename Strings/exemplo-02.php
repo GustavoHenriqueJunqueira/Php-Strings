@@ -8,13 +8,13 @@ echo "<br/>";
 
 $nome = strtolower ($nome); // A função strtolower converte os textos para letras minusculas.
 
-echo "<br/>";
-
 echo $nome;
 
 echo"<br/>";
 
 echo ucwords($nome); // Esta função converte apenas a primeira letra da parala para maiuscula. 
 
+echo"<br/>";
 
-?>
+echo ucfirst ($nome); //Esta função converte apenas a primeira letra da palavra, supondo que o nome comtem duas palavras, apenas a primeira será em maiusculo.
+?> 
